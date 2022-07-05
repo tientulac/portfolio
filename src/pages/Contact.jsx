@@ -27,19 +27,19 @@ const Contact = ({ info }) => {
               <div className="address">
                 <i className="bi bi-geo-alt"></i>
                 <h4>Location:</h4>
-                <p>{info?.address}</p>
+                <p>Num 45, 59/93 Me Tri, Nam Tu Liem, Ha Noi, Viet Nam</p>
               </div>
 
               <div className="email">
                 <i className="bi bi-envelope"></i>
                 <h4>Email:</h4>
-                <p>{info?.email}</p>
+                <p>tienhdtl1234@gmail.com</p>
               </div>
 
               <div className="phone">
                 <i className="bi bi-phone"></i>
                 <h4>Call:</h4>
-                <p>{info?.phone}</p>
+                <p>0983020816</p>
               </div>
               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d930.8777157663562!2d105.74027422919347!3d21.052248899124105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x313454f75470473d%3A0x6527213b5300639e!2zTmd1ecOqbiBYw6EsIE1pbmggS2hhaSwgVOG7qyBMacOqbSwgSMOgIE7hu5lpLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1649437126296!5m2!1svi!2s" style={{ "border": "0", "width": "100%", "height": "300px" }}
                 allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
