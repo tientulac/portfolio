@@ -1,0 +1,27 @@
+{
+    "full_name": "Nguyen Ngoc Tien",
+    "department": "Web developer",
+    "country": "Viet Nam",
+    "phone": "0983020816",
+    "age": "22",
+    "birth": "14/10/2000",
+    "degree": "Bachelor",
+    "education_1": {
+        "name": "Hanoi National University of Education",
+        "from_to": "2018 - 2022",
+        "major": "Math"
+    },
+    "education_2": {
+        "name": "FPT Aptech Ha Noi",
+        "from_to": "2020 - 2022",
+        "major": "Web developer"
+    },
+    "major": "Math - IT",
+    "link_image": "",
+    "email": "tienhdtl1234@gmail.com",
+    "github": "https://github.com/tientulac",
+    "facebook": "https://www.facebook.com/nguyenngoxtien/",
+    "instagram": "https://www.instagram.com/tien_nguyenn_/",
+    "slogan": "I wanna be professional Fullstack developer",
+    "career_goals": "Become a good, professional Developer with background knowledge of web design and development. Practice skills, develop qualities through conquering certificates of high professional value. Develop products, personal projects to enhance self-worth."
+}
