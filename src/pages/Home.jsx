@@ -9,6 +9,7 @@ import Testimonials from "./Testimonials";
 import Contact from "./Contact";
 import SoftSkill from './SoftSkill';
 import information from '../information/information.json'
+import experience from '../information/experience.json'
 
 const Home = ({ info, skill, resume, infoProject, softSkill }) => {
   // console.log(info);
@@ -27,7 +28,7 @@ const Home = ({ info, skill, resume, infoProject, softSkill }) => {
       <Skill skill={skill} />
       <SoftSkill softSkill={softSkill} />
       <Resume resume={resume} />
-      <Portfolio infoProject={infoProject} />
+      <Portfolio infoProject={infoProject} experience={experience}/>
       {/* <Testimonials /> */}
       <Contact info={info} />
       <a href="#" className="back-to-top d-flex align-items-center justify-content-center"><i className="bi bi-arrow-up-short"></i></a>

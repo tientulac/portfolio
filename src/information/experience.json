@@ -1,5 +1,5 @@
-{
-    "company_1": {
+[
+    {
         "name": "Thien An Technology Company",
         "from_to": "02/2021 - 04/2022",
         "department": "fullstack developer",
@@ -12,45 +12,45 @@
             "cache": "",
             "design": "excel"
         },
-        "project": {
-            "project_1": {
+        "project": [
+            {
                 "name": "UniSoft-GOV (Update Version)",
                 "description": "",
                 "group": "1",
                 "type": "New project",
                 "role_participate": "Analysis and design system, write restfulAPI, write query SQL (Store procedure, truncate,...). Design admin page, user page, create role, decentralization"
             },
-            "project_2": {
+            {
                 "name": "UniSciSoft (Scientific Management)",
                 "description": "",
                 "group": "5",
                 "type": "New project",
                 "role_participate": "Analysis and design system, write restfulAPI, write query SQL (Store procedure, truncate,...). Design admin page, user page, create role, decentralization"
             },
-            "project_3": {
+            {
                 "name": "UniASM (Assest Management)",
                 "description": "",
                 "group": "5",
                 "type": "Maintain",
                 "role_participate": "Fix outstanding bugs, create interfaces, write resfulAPI, develop new functions (Revoke, allocate assets, ...)"
             },
-            "project_4": {
+            {
                 "name": "UniQA",
                 "description": "",
                 "group": "5",
                 "type": "Maintain",
                 "role_participate": "Analyze system design, write restful API, write SQL statements (Store procedure,...), create interfaces"
             },
-            "project_5": {
+            {
                 "name": "UniDorm (Dormitory Management)",
                 "description": "",
                 "group": "5",
                 "type": "Maintain",
                 "role_participate": "fix outstanding bugs, re-develop the student registration portal for dormitory (Update information, register accommodation, ...)"
             }
-        }
+        ]
     },
-    "company_2": {
+    {
         "name": "NOVAON TECH Company",
         "from_to": "04/2022 - Now",
         "department": "fullstack developer",
@@ -63,28 +63,28 @@
             "cache": "Redis, Elastic search, RabbitMq, Docker",
             "design": "Figma, photoshop"
         },
-        "project": {
-            "project_1": {
+        "project": [
+            {
                 "name": "ONMARKETER (Profile Customer Tracking Code)",
                 "description": "",
                 "group": "1",
                 "type": "New feature",
                 "role_participate": "Write restfulAPI, create user interface. Write query SQL (Store procedure). Using Elasticsearch, Wooecomerce, Google Tag Manager"
             },
-            "project_2": {
+            {
                 "name": "ONMARKETER (Block Virtual Clicks - Google Ads)",
                 "description": "",
                 "group": "3",
                 "type": "Maintain",
                 "role_participate": "Using Google Ads API update from v9 to v10. Using SendGrid to manager email"
             },
-            "project_3": {
+            {
                 "name": "ONMARKETER (Recommendation)",
                 "description": "",
                 "group": "1",
                 "type": "New feature",
                 "role_participate": "Write restfulAPI, create user interface. Setup redis and save data"
             }
-        }
+        ]
     }
-}
+]
