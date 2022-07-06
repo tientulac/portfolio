@@ -19,13 +19,13 @@ const Header = ({ info }) => {
             <div className="d-flex flex-column">
 
                 <div className="profile">
-                    <img src={info?.avatar} alt="" className="img-fluid rounded-circle" />
-                    <h1 className="text-light"><a href="index.html">{info?.name}</a></h1>
+                    <img src='../src/assets/img/imagecv.jpg' alt="" className="img-fluid rounded-circle" />
+                    <h1 className="text-light"><a href="index.html">Nguyễn Ngọc Tiến</a></h1>
                     <div className="social-links mt-3 text-center">
-                        <a target="_blank" href={info?.email} className="twitter"><i className="bi bi-envelope"></i></a>
-                        <a target="_blank" href={info?.github} className="google-plus"><i className="bx bxl-github"></i></a>
-                        <a target="_blank" href={info?.facebook} className="facebook"><i className="bx bxl-facebook"></i></a>
-                        <a target="_blank" href={info?.instagram} className="instagram"><i className="bx bxl-instagram"></i></a>
+                        {/* <a target="_blank" href={info?.email} className="twitter"><i className="bi bi-envelope"></i></a> */}
+                        <a target="_blank" href='https://github.com/tientulac' className="google-plus"><i className="bx bxl-github"></i></a>
+                        <a target="_blank" href='https://www.facebook.com/nguyenngoxtien/' className="facebook"><i className="bx bxl-facebook"></i></a>
+                        <a target="_blank" href='https://www.instagram.com/tien_nguyenn_' className="instagram"><i className="bx bxl-instagram"></i></a>
                     </div>
                 </div>
 

@@ -5,7 +5,7 @@ const Footer = () => {
         <div><footer id="footer">
             <div className="container">
                 <div className="copyright">
-                    &copy; Copyright <strong><span>Ngô Văn Nam</span></strong>
+                    &copy; Copyright <strong><span>Nguyễn Ngọc Tiến</span></strong>
                 </div>
             </div>
         </footer></div>

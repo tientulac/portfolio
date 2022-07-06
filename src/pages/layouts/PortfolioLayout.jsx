@@ -10,9 +10,9 @@ const PortfolioLayout = ({ info }) => {
             <nav>
                 <i className="bi bi-list mobile-nav-toggle d-xl-none"></i>
                 <Header info={info} />
-                <Footer />
+                <Footer/>
             </nav>
-            <main style={{ marginLeft: 300 + 'px' }}>
+            <main className="main-class">
                 <Outlet />
             </main>
         </div>

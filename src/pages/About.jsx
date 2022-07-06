@@ -15,7 +15,7 @@ const About = ({info, information }) => {
 
         <div className="row">
           <div className="col-lg-4" >
-            <img src={info?.avatar} className="img-fluid" alt="" />
+            <img src='../src/assets/img/imagecv.jpg' className="img-fluid" alt="" />
           </div>
           <div className="col-lg-8 pt-4 pt-lg-0 content" >
             <h3>{information?.department}</h3>

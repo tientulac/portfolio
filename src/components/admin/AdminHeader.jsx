@@ -7,7 +7,7 @@ const Header = ({ info }) => {
             <div className="d-flex flex-column">
 
                 <div className="profile">
-                    <img src={info?.avatar} alt="" className="img-fluid rounded-circle" />
+                    <img src='../src/assets/image/imagecv.jpg' alt="" className="img-fluid rounded-circle" />
                     <h1 className="text-light"><a href="index.html">admin</a></h1>
                     <div className="social-links mt-3 text-center">
                         <a target="_blank" className="twitter"><i className="bi bi-envelope"></i></a>
